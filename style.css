@@ -1,9 +1,13 @@
-/* card_segmento_compra.*/
+/* card_segmento_productos.*/
+
 
 .card-img-top2 {
   height: 300px;
   object-fit: contain;
 }
+
+
+/* card_segmento_compra.*/
 
 
 .card1 {
@@ -28,9 +32,31 @@
 }
 
 
+
 /*breadcrumb imagen de fondo*/
+
 
 .breadcrumb {
   background-image: url('https://img.freepik.com/vector-premium/diseno-banner-abstracto-rayas-negras-amarillas-gris-oscuro-fondo-vector-tecnologia-geometrica_181182-14043.jpg');
   background-size: cover;
+}
+
+/* Carousel ajuste imagenes responsivas del mismo tamanio*/
+
+.carousel-item img {
+  width: 100%; /* ancho fijo */
+  height: 100%; /* altura fija */
+  object-fit: cover; /* ajustar imagen */
+}
+
+
+/* configuracion footer*/
+
+.footer-icons-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.footer-icons-container i {
+  display: inline-block;
 }
